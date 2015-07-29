@@ -52,13 +52,11 @@ For me, the bottom line is the NDP has a good track record, as the below analysi
 # The Analysis:
 
 My analysis confirms Toby Sanger's: that the NDP with their time in office have proven to be the most responsible economic
-managers out of the three.
+managers out of the three.  As with his analysis, I have compared the party fiscals in three varieties:
 
-As with his analysis, I have compared the party fiscals in three varieties:
-
-1. over the provincial and territorial budgets;
-2. the federal budget alone;
-3. a combination of provinces, territories, and federal Canada.
+1. The provincial and territorial budgets;
+2. The federal budget alone;
+3. A combination of provinces, territories, and federal Canada.
 
 There are two exceptions to the provincial / territorial data: Northwest Territories as well as Nunavut have been excluded
 from these comparisons as neither run government by a party system, but rather by *consensus*.  That still leaves 10 provinces,
@@ -78,12 +76,12 @@ The above graph shows this same data in terms of percentages, for example NDP = 
 ![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/deficit \(prov\).jpg)
 
 As Toby Sanger has pointed out, looking only at the number of surpluses and deficits is an incomplete picture.
-You have to look at how big or small such surpluses and deficits have been over the years. Given that subtleties
-such as inflation skew the absolute numbers, in order to make them comparable we divide any year's budget balance
+You have to look at how big or small such surpluses and deficits have been over the years. Given subtleties
+such as *inflation* skew the absolute numbers, in order to make them comparable we divide any year's budget balance
 by the GDP of that year.
 
 Taking the average of this quantity over the provinces, shows in fact the average budget balance for all three parties
-has been a deficit, but out of the three, again the NDP has the lowest such average deficit at about 0.46%.
+has been a state of deficit, but out of the three, again the NDP has the lowest such average deficit at about 0.46%.
 The Conservatives come in much higher at 0.81%, and the Liberals again trailing behind at about 1.13% the relative
 provincial productive abilities.
 
@@ -155,7 +153,7 @@ years experience I have discluded them from the main analysis.
 
 The same style of analysis as above is done here, but for the federal parties only:
 
-I won't give an explanation of this data as I trust you can read over it yourself, but otherwise the federal Liberals
+I decline to give an explanation of this data as I trust you can read over it yourself, but otherwise the federal Liberals
 have in there time done much better fiscally both with a greater number of relative surpluses, as well as a smaller balance ratio.
 
 ![from: Canadian Federal and Provincial Comparative Analysis (fed).csv](images/surplus \(fed\).jpg)
@@ -189,10 +187,10 @@ have in there time done much better fiscally both with a greater number of relat
 ### Provincial / Territorial / Federal:
 
 Lastly, I've included the federal data mixed in with the provincial / territorial results to parallel Toby
-Sanger's analysis as I agree that such mixed results in theory doesn't negatively skew the provincial data.
+Sanger's analysis. I am in agreeance that such mixed results in theory doesn't negatively skew the provincial data.
 In *information theory* terms, it's because the federal government has higher economic strategic entropy.
-In plain terms: Although they do have other considerations when forming their budgets, they also have far
-greater ability to design their own outcome---they have less legislative constraints when planning how to
+In plain terms: Although they do have other considerations when forming their budgets, the federal governments also
+have far greater ability to design their own outcome---they have less legislative constraints when planning how to
 balance their budget.
 
 Regardless, even with this consideration, the data reveals the same overall relationships:
@@ -314,8 +312,8 @@ to the number of years of NDP:
 </table>
 
 As you can see, the first 75 years of Conservative and Liberal fiscals show they look nothing like the first
-72 years of NDP fiscals. The point being, that argument doesn't carry much weight, as you'd otherwise expect
-their respective datapoints to be more similar to the current NDP's. 
+72 years of NDP fiscals. The point being, such a *what-if* argument doesn't carry much weight, as you'd
+otherwise expect their respective datapoints to be more similar to the current NDP's. 
 
 ## The Data:
 
@@ -333,6 +331,13 @@ For brevity of this page, the explanation of the methods can be found on the fol
 
 If for example you're wondering how you get fractions of years in the above data, you would want
 to read over this page.  I otherwise in particular give an overview of the R scripts used to process the data.
+
+### Personal Note:
+
+Though it might be less professional, as the individual who put the time and effort into this,
+I would like to share some personal thoughts for those who care about civics and a better society:
+
++ [Author's Note](other/README.md)
 
 ## Conclusion
 
