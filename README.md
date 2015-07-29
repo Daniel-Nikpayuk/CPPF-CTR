@@ -91,53 +91,60 @@ If you like graphs less, here's the same data in table form:
   <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
+  <td>Party</td>
+  <td>Years</td>
+  <td>Surplus</td>
+  <td>Deficit</td>
+  <td>Mean.BB.GDP.Percent</td>
+ </tr>
+ <tr>
   <td>Conservative</td>
   <td>148.45</td>
   <td>54.24</td>
   <td>94.21</td>
-  <td>-0.59</td>
+  <td>-0.81</td>
  </tr>
  <tr>
   <td>Social Credit</td>
   <td>10.87</td>
   <td>2</td>
   <td>8.87</td>
-  <td>-0.85</td>
+  <td>-1.13</td>
  </tr>
  <tr>
   <td>NDP</td>
-  <td>71.70</td>
+  <td>71.7</td>
   <td>30.85</td>
   <td>40.84</td>
-  <td>-0.25</td>
+  <td>-0.46</td>
  </tr>
  <tr>
   <td>Liberal</td>
   <td>99.99</td>
   <td>18.84</td>
   <td>80.16</td>
-  <td>-0.94</td>
+  <td>-1.13</td>
  </tr>
  <tr>
   <td>Québec</td>
   <td>14.84</td>
   <td>3</td>
   <td>11.84</td>
-  <td>-1.22</td>
+  <td>-1.47</td>
  </tr>
  <tr>
   <td>Saskatchewan</td>
   <td>6.08</td>
   <td>5.08</td>
   <td>1</td>
-  <td>0.49</td>
+  <td>0.82</td>
  </tr>
  <tr>
   <td>Yukon</td>
   <td>11.08</td>
   <td>9</td>
   <td>2.08</td>
-  <td>0.95</td>
+  <td>1.33</td>
  </tr>
 </table>
 
@@ -164,18 +171,25 @@ there time done much better fiscally both with more relative surpluses as well a
   <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
+  <td>Party</td>
+  <td>Years</td>
+  <td>Surplus</td>
+  <td>Deficit</td>
+  <td>Mean.BB.GDP.Percent</td>
+ </tr>
+ <tr>
   <td>Liberal</td>
   <td>16.01</td>
   <td>9.15</td>
   <td>6.86</td>
-  <td>-1.69</td>
+  <td>-1.91</td>
  </tr>
  <tr>
   <td>Conservative</td>
   <td>16.99</td>
   <td>1.85</td>
   <td>15.14</td>
-  <td>-2.78</td>
+  <td>-3.45</td>
  </tr>
 </table>
 
@@ -202,53 +216,60 @@ Regardless, even with this consideration, the data reveals the same relationship
   <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
+  <td>Party</td>
+  <td>Years</td>
+  <td>Surplus</td>
+  <td>Deficit</td>
+  <td>Mean.BB.GDP.Percent</td>
+ </tr>
+ <tr>
   <td>Liberal</td>
-  <td>116.00</td>
+  <td>116</td>
   <td>27.98</td>
   <td>87.02</td>
-  <td>-1.04</td>
+  <td>-1.24</td>
  </tr>
  <tr>
   <td>Conservative</td>
   <td>165.44</td>
   <td>56.09</td>
   <td>109.35</td>
-  <td>-0.81</td>
+  <td>-1.08</td>
  </tr>
  <tr>
   <td>Social Credit</td>
   <td>10.87</td>
   <td>2</td>
   <td>8.87</td>
-  <td>-0.85</td>
+  <td>-1.13</td>
  </tr>
  <tr>
   <td>NDP</td>
-  <td>71.70</td>
+  <td>71.7</td>
   <td>30.85</td>
   <td>40.84</td>
-  <td>-0.25</td>
+  <td>-0.46</td>
  </tr>
  <tr>
   <td>Québec</td>
   <td>14.84</td>
   <td>3</td>
   <td>11.84</td>
-  <td>-1.22</td>
+  <td>-1.47</td>
  </tr>
  <tr>
   <td>Saskatchewan</td>
   <td>6.08</td>
   <td>5.08</td>
   <td>1</td>
-  <td>0.49</td>
+  <td>0.82</td>
  </tr>
  <tr>
   <td>Yukon</td>
   <td>11.08</td>
   <td>9</td>
   <td>2.08</td>
-  <td>0.95</td>
+  <td>1.33</td>
  </tr>
 </table>
 
@@ -276,8 +297,8 @@ of years of NDP:
   <td>prov/terr</td>
   <td>73.35</td>
   <td>9.45</td>
-  <td>63.90</td>
-  <td>-1.55</td>
+  <td>63.9</td>
+  <td>-1.97</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -285,7 +306,7 @@ of years of NDP:
   <td>74.27</td>
   <td>16.84</td>
   <td>56.44</td>
-  <td>-0.94</td>
+  <td>-1.13</td>
  </tr>
  <tr>
   <td>Conservative</td>
@@ -293,7 +314,7 @@ of years of NDP:
   <td>75.12</td>
   <td>9.45</td>
   <td>65.67</td>
-  <td>-1.75</td>
+  <td>-2.27</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -301,7 +322,7 @@ of years of NDP:
   <td>74.41</td>
   <td>12.62</td>
   <td>60.78</td>
-  <td>-1.42</td>
+  <td>-1.69</td>
  </tr>
 </table>
 

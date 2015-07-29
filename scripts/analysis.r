@@ -122,17 +122,8 @@ gdp_tally <- function(fin, elect, part, table)
 		party <- elect[row, "Party"]
 		gdp <- fin[year,]
 
-		right_scalar <- if (date == "NA") 1
-		else
-		{
-			dissolved <- elect[row, "Dissolved"]
-			left_scalar <- left(date)/365
-			gdp_list[row,dissolved] <- left_scalar*as.numeric(gdp[reg])
-
-			right(date)/365
-		}
-
-		gdp_list[row,party] <- right_scalar*as.numeric(gdp[reg])
+		gdp_list[row,party] <- as.numeric(gdp[reg])
+		if (date != "NA") gdp_list[row,elect[row, "Dissolved"]] <- as.numeric(gdp[reg])
 	}
 
 	leng <- sum(!is.na(gdp_list))
@@ -152,6 +143,16 @@ stat_helper <- function(stat, gdpl, name)
 	stat(gdpl[rows,name])
 }
 
+round_assist <- function(table)
+{
+	table[,"Years"] <- round(table[,"Years"], 2)
+	table[,"Surplus"] <- round(table[,"Surplus"], 2)
+	table[,"Deficit"] <- round(table[,"Deficit"], 2)
+	table[,"Mean.BB.GDP.Percent"] <- round(table[,"Mean.BB.GDP.Percent"], 2)
+	table[,"Median.BB.GDP.Percent"] <- round(table[,"Median.BB.GDP.Percent"], 2)
+	table
+}
+
 analyze <- function(r)
 {
 	financials <- make_financials()
@@ -164,7 +165,7 @@ analyze <- function(r)
 
 	summary[,"Mean.BB.GDP.Percent"] <- sapply(colnames(gdp_list), function(col) stat_helper(mean, gdp_list, col))
 	summary[,"Median.BB.GDP.Percent"] <- sapply(colnames(gdp_list), function(col) stat_helper(median, gdp_list, col))
-	summary
+	round_assist(summary)
 }
 
 firstYears <- function(party, n, r)
@@ -193,13 +194,13 @@ firstYears <- function(party, n, r)
 	summary[,"Mean.BB.GDP.Percent"] <- sapply(colnames(gdp_list), function(col) stat_helper(mean, gdp_list, col))
 	summary[,"Median.BB.GDP.Percent"] <- sapply(colnames(gdp_list), function(col) stat_helper(median, gdp_list, col))
 
-	summary[party,]
+	round_assist(summary[party,])
 }
 
 analyze_firstYears <- function(r)
 {
 	summary <- analyze(r)
-	firstYears("Conservative", summary["NDP","Years"], r)
+	print(firstYears("Conservative", summary["NDP","Years"], r))
 	firstYears("Liberal", summary["NDP","Years"], r)
 }
 
