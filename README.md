@@ -19,21 +19,22 @@ here to look at the recent history of fiscal **budget balances** and to compare 
 The focus on economic record is also part of the reaction as Harper especially likes to proclaim his party is the only
 responsible economic actor in government---which it is not.
 
-It will be shown that in fact *the NDP has the best record*.
+It will be shown that in fact the **NDP** has the best record.
 
 This analysis is an extension of the article:
 ["Fiscal Record of Canadian Political Parties"](http://www.progressive-economics.ca/2011/04/29/fiscal-record-of-canadian-political-parties/)
 by economist Toby Sanger.
 
-To be clear, it is not a direct *derivation* as I did not have access to his datasets or methods, but it does attempt to replicate
-his analysis. Everything has been reproduced and validated, with some slight variations on method resulting in a small change of the
-numbers---but not the resulting relationships.
+To be clear, it is not a direct *derivation* as I did not have access to his datasets or methods, but it does attempt to reproduce
+his results. The necessary data sets have been reproduced and validated, with some slight variations on method---resulting in a small
+change of the numbers, but not the resulting relationships.
 
 ## Motivation:
 
 So here's the question: If such an analysis already exists, why read this one?
 
-1. **Date**: It's been updated for the most recent years. His article is four years old, with data going only up to 2010.
+1. **Date**: It's been updated for the most recently available fiscal years. His article is four years old,
+	with data going only up to 2010.
 2. **Transparency**: I am posting my datasets as well as my methods here for anyone to critically deconstruct and debug.
 3. **Bonus**: I include a few results his analysis did not.
 
@@ -42,7 +43,7 @@ So here's the question: If such an analysis already exists, why read this one?
 Aaron Paquette, the NDP Candidate for Edmonton Manning in the upcoming 2015 Federal election requested this project.
 Out of respect for him and his leadership, I have volunteered.
 
-With that said, although my bias is that I am in support of the NDP this election---and I certainly support Aaron's
+With that said, although my bias is in support of the NDP this election---and I certainly support Aaron's
 individual leadership regardless---I am a complexity theorist at heart. I don't support a single recursive political
 ideology as universal (within a complex system), rather I support the evidence; and I support evidence based politics.
 
@@ -50,10 +51,13 @@ For me, the bottom line is the NDP has a good track record, as the below analysi
 
 # The Analysis:
 
-My analysis confirms Toby Sanger's, that the NDP with their time in office have proven to be the most responsible economic
+My analysis confirms Toby Sanger's: that the NDP with their time in office have proven to be the most responsible economic
 managers out of the three.
 
-![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/surplus (prov).jpg)
+![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/surplus \(prov\).jpg)
+
+So NDP have about 72 years of provincial experience, and about 31 of those years they ran surpluses.
+Conservatives on the other hand have about 148 years of experience, and 
 
 ![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/deficit \(prov\).jpg)
 
@@ -63,8 +67,7 @@ managers out of the three.
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Mean.BB.GDP.Percent</td>
-  <td>Median.BB.GDP.Percent</td>
+  <td>Average Budget Balance/GDP (%)</td>
  </tr>
  <tr>
   <td>Conservative</td>
@@ -72,7 +75,6 @@ managers out of the three.
   <td>54.24</td>
   <td>94.21</td>
   <td>-0.59</td>
-  <td>-0.50</td>
  </tr>
  <tr>
   <td>Social Credit</td>
@@ -80,7 +82,6 @@ managers out of the three.
   <td>2</td>
   <td>8.87</td>
   <td>-0.85</td>
-  <td>-0.82</td>
  </tr>
  <tr>
   <td>NDP</td>
@@ -88,7 +89,6 @@ managers out of the three.
   <td>30.85</td>
   <td>40.84</td>
   <td>-0.25</td>
-  <td>-0.24</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -96,7 +96,6 @@ managers out of the three.
   <td>18.84</td>
   <td>80.16</td>
   <td>-0.94</td>
-  <td>-0.69</td>
  </tr>
  <tr>
   <td>Québec</td>
@@ -104,7 +103,6 @@ managers out of the three.
   <td>3</td>
   <td>11.84</td>
   <td>-1.22</td>
-  <td>-0.76</td>
  </tr>
  <tr>
   <td>Saskatchewan</td>
@@ -112,7 +110,6 @@ managers out of the three.
   <td>5.08</td>
   <td>1</td>
   <td>0.49</td>
-  <td>0.15</td>
  </tr>
  <tr>
   <td>Yukon</td>
@@ -120,7 +117,6 @@ managers out of the three.
   <td>9</td>
   <td>2.08</td>
   <td>0.95</td>
-  <td>0.43</td>
  </tr>
 </table>
 
@@ -134,8 +130,7 @@ managers out of the three.
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Mean.BB.GDP.Percent</td>
-  <td>Median.BB.GDP.Percent</td>
+  <td>Average Budget Balance/GDP (%)</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -143,7 +138,6 @@ managers out of the three.
   <td>9.15</td>
   <td>6.86</td>
   <td>-1.69</td>
-  <td>0.04</td>
  </tr>
  <tr>
   <td>Conservative</td>
@@ -151,7 +145,6 @@ managers out of the three.
   <td>1.85</td>
   <td>15.14</td>
   <td>-2.78</td>
-  <td>-2.82</td>
  </tr>
 </table>
 
@@ -165,8 +158,7 @@ managers out of the three.
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Mean.BB.GDP.Percent</td>
-  <td>Median.BB.GDP.Percent</td>
+  <td>Average Budget Balance/GDP (%)</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -174,7 +166,6 @@ managers out of the three.
   <td>27.98</td>
   <td>87.02</td>
   <td>-1.04</td>
-  <td>-0.60</td>
  </tr>
  <tr>
   <td>Conservative</td>
@@ -182,7 +173,6 @@ managers out of the three.
   <td>56.09</td>
   <td>109.35</td>
   <td>-0.81</td>
-  <td>-0.59</td>
  </tr>
  <tr>
   <td>Social Credit</td>
@@ -190,7 +180,6 @@ managers out of the three.
   <td>2</td>
   <td>8.87</td>
   <td>-0.85</td>
-  <td>-0.82</td>
  </tr>
  <tr>
   <td>NDP</td>
@@ -198,7 +187,6 @@ managers out of the three.
   <td>30.85</td>
   <td>40.84</td>
   <td>-0.25</td>
-  <td>-0.23</td>
  </tr>
  <tr>
   <td>Québec</td>
@@ -206,7 +194,6 @@ managers out of the three.
   <td>3</td>
   <td>11.84</td>
   <td>-1.22</td>
-  <td>-0.76</td>
  </tr>
  <tr>
   <td>Saskatchewan</td>
@@ -214,7 +201,6 @@ managers out of the three.
   <td>5.08</td>
   <td>1</td>
   <td>0.49</td>
-  <td>0.15</td>
  </tr>
  <tr>
   <td>Yukon</td>
@@ -222,7 +208,6 @@ managers out of the three.
   <td>9</td>
   <td>2.08</td>
   <td>0.95</td>
-  <td>0.43</td>
  </tr>
 </table>
 
