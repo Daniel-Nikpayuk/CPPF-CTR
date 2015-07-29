@@ -16,7 +16,7 @@ plain and simple.  The first line of such evidence is economic and fiscal data.
 
 The inspiration of this analysis is somewhat a reaction to Harper's *anti-science*, *anti-evidence* ideology, with the intent
 here to look at the recent history of fiscal **budget balances** and to compare how these parties have actually done in the past. 
-The focus on economic record is also part of the reaction as Harper especially likes to proclaim his party is the only
+The focus on economic record is also part of this reaction as Harper especially likes to proclaim his party is the only
 responsible economic actor in government---which it is not.
 
 It will be shown that in fact the **NDP** has the best record.
@@ -40,7 +40,7 @@ So here's the question: If such an analysis already exists, why do we need this 
 
 ### Full disclosure:
 
-Aaron Paquette, the NDP Candidate for Edmonton Manning in the upcoming 2015 Federal election requested this project.
+Aaron Paquette, the NDP Candidate for Edmonton Manning in the upcoming 2015 Federal election recommended this project.
 Out of respect for him and his leadership, I have volunteered.
 
 With that said, although my bias is in support of the NDP this election---and I certainly support Aaron's
@@ -83,9 +83,9 @@ by the GDP of that year.
 Taking the average of this quantity over the provinces, shows in fact the average budget balance for all three parties
 has been a state of deficit, but out of the three, again the NDP has the lowest such average deficit at about 0.46%.
 The Conservatives come in much higher at 0.81%, and the Liberals again trailing behind at about 1.13% the relative
-provincial productive abilities.
+provincial productive abilities. The above graph demonstrates these realities.
 
-If you're more interested in hard numbers, here's the same data in table form:
+If you're more interested in hard numbers, here's the same data for the above two graphs in table form:
 
 <table>
  <tr>
@@ -146,8 +146,8 @@ If you're more interested in hard numbers, here's the same data in table form:
  </tr>
 </table>
 
-You'll notice other parties are included in these provincial results, but as they do not have nearly the depth of
-years experience I have discluded them from the main analysis.
+You'll notice other parties are included in these table results, but as they do not have nearly the depth of
+years experience I have excluded them from the main analysis.
 
 ### Federal:
 
@@ -187,11 +187,13 @@ have in there time done much better fiscally both with a greater number of relat
 ### Provincial / Territorial / Federal:
 
 Lastly, I've included the federal data mixed in with the provincial / territorial results to parallel Toby
-Sanger's analysis. I am in agreeance that such mixed results in theory doesn't negatively skew the provincial data.
-In *information theory* terms, it's because the federal government has higher economic strategic entropy.
+Sanger's analysis. I am in agreeance that such mixed results in theory don't negatively skew the provincial data.
+In *information theory* terms, it's because the federal government has higher strategic entropy when it comes
+to economics.
 In plain terms: Although they do have other considerations when forming their budgets, the federal governments also
 have far greater ability to design their own outcome---they have less legislative constraints when planning how to
-balance their budget.
+balance their budget. It's easier for them to shift things around to balance their books, as they have more tools
+accessible to them.
 
 Regardless, even with this consideration, the data reveals the same overall relationships:
 
@@ -351,7 +353,7 @@ as well as provincial counterparts.
 The point I'm making, is things aren't actually that simple, but you still get many pundits and citizens with "expert
 opinions" who have decided things *are* that simple. You do what you can to educate them on the complex points of life,
 but that doesn't always work. In such cases, you end up with projects like this, where we acknowledge their logic---taking
-it to their way of thinking---and show even within the constraints of their logic system the wild and irresponsible claims
+it to their way of thinking---and showing even within the constraints of their logic system the wild and irresponsible claims
 they're making carry no weight.
 
 ---Daniel Nikpayuk
