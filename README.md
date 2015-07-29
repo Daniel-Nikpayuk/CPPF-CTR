@@ -54,12 +54,33 @@ For me, the bottom line is the NDP has a good track record, as the below analysi
 My analysis confirms Toby Sanger's: that the NDP with their time in office have proven to be the most responsible economic
 managers out of the three.
 
+As with his analysis, I have compared the party fiscals over the provincial and territorial budgets; the federal budget alone,
+as well as a combination of provinces, territories, and federal Canada. There are two exceptions: Northwest Territories
+as well as Nunavut have been excluded from these comparisons as neither run government by parties, but rather by consensus.
+That still leaves 10 provinces, and 1 territory (Yukon), as well as 1 federal budget between the years of 1981-2013.
+That's 33 years in a single time frame, but as there are 12 regions, that adds up to 396 (12\*33=396) years of data to work with.
+
+### Provincial / Territorial:
+
 ![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/surplus \(prov\).jpg)
 
-So NDP have about 72 years of provincial experience, and about 31 of those years they ran surpluses.
-Conservatives on the other hand have about 148 years of experience, and 
+The NDP have about 72 years of provincial experience, and about 31 of those years they ran surpluses.
+Conservatives on the other hand have about 148 years of experience provincially, and have about 54 years of surpluses.
+Provincial Liberals have 100 years in, and have the least number of surpluses: 19.
 
 ![from: Canadian Federal and Provincial Comparative Analysis (prov).csv](images/deficit \(prov\).jpg)
+
+As Toby Sanger has pointed out, looking only at the number of surpluses and deficits is an incomplete picture.
+You have to look at how big or small such surpluses and deficits have been over the years. Given that subtleties
+such as inflation skew the absolute numbers, in order to make them comparable we divide any year's budget balance
+by the GDP of that year.
+
+Taking the average of this quantity over the provinces, shows in fact the average budget balance for all three parties
+has been a deficit, but out of the three, again the NDP has the lowest such average deficit at about 0.25%.
+The Conservatives coming in much higher at 0.59%, and the Liberals again trailing behind at about 0.94% the relative
+provincial productive abilities.
+
+If you like graphs less, here's the same data in table form:
 
 <table>
  <tr>
@@ -67,7 +88,7 @@ Conservatives on the other hand have about 148 years of experience, and
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Average Budget Balance/GDP (%)</td>
+  <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
   <td>Conservative</td>
@@ -120,6 +141,16 @@ Conservatives on the other hand have about 148 years of experience, and
  </tr>
 </table>
 
+You'll notice other parties are included in these provincial results, but as they do not have nearly the depth of
+years experience I have discluded them from the main analysis.
+
+### Federal:
+
+The same style of analysis as above is done just for the federal parties here:
+
+I won't explain much here as I trust you can read over it yourself, but otherwise the federal Liberals have in
+there time done much better fiscally both with more relative surpluses as well as a smaller balance ratio.
+
 ![from: Canadian Federal and Provincial Comparative Analysis (fed).csv](images/surplus \(fed\).jpg)
 
 ![from: Canadian Federal and Provincial Comparative Analysis (fed).csv](images/deficit \(fed\).jpg)
@@ -130,7 +161,7 @@ Conservatives on the other hand have about 148 years of experience, and
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Average Budget Balance/GDP (%)</td>
+  <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -148,6 +179,16 @@ Conservatives on the other hand have about 148 years of experience, and
  </tr>
 </table>
 
+### Provincial / Territorial / Federal:
+
+I've included the federal data mixed in with the provincial territorial results to parallel Toby Sanger's
+analysis, as I agree it in theory doesn't negatively skew the provincial data. In fancy *information theory*
+terms, it's because the federal government has higher economic entropy. In plain terms: Although they do
+have other considerations when forming their budgets, they also have far greater ability to design their own
+outcome: They have less legislative constraints when planning how to balance their budget.
+
+Regardless, even with this consideration, the data reveals the same relationships:
+
 ![from: Canadian Federal and Provincial Comparative Analysis (all).csv](images/surplus \(all\).jpg)
 
 ![from: Canadian Federal and Provincial Comparative Analysis (all).csv](images/deficit \(all\).jpg)
@@ -158,7 +199,7 @@ Conservatives on the other hand have about 148 years of experience, and
   <td>Years</td>
   <td>Surplus</td>
   <td>Deficit</td>
-  <td>Average Budget Balance/GDP (%)</td>
+  <td>Avg. Budget Balance / GDP (%)</td>
  </tr>
  <tr>
   <td>Liberal</td>
@@ -211,10 +252,92 @@ Conservatives on the other hand have about 148 years of experience, and
  </tr>
 </table>
 
+## Bonus:
+
+It occurs to me there are many "what if" scenarios that people might want to argue when looking at this analysis critically.
+I certainly don't have time to go over all such possibilities, but I will go over one basic one.
+
+You could make the argument that we only have 70ish years of NDP data, and it's likely when NDP reaches the number of years
+in power as Liberals and Conservatives, the data will begin to look similar. While I cannot project decades worth of NDP
+fiscal data into the future to make such comparisons, I can at least restrict the Liberal and Conservative data to the number
+of years of NDP:
+
+<table>
+ <tr>
+  <td>Party</td>
+  <td>Region</td>
+  <td>Years</td>
+  <td>Surplus</td>
+  <td>Deficit</td>
+  <td>Avg. Budget Balance / GDP (%)</td>
+ </tr>
+ <tr>
+  <td>Conservative</td>
+  <td>prov/terr</td>
+  <td>73.35</td>
+  <td>9.45</td>
+  <td>63.90</td>
+  <td>-1.55</td>
+ </tr>
+ <tr>
+  <td>Liberal</td>
+  <td>prov/terr</td>
+  <td>74.27</td>
+  <td>16.84</td>
+  <td>56.44</td>
+  <td>-0.94</td>
+ </tr>
+ <tr>
+  <td>Conservative</td>
+  <td>prov/terr/fed</td>
+  <td>75.12</td>
+  <td>9.45</td>
+  <td>65.67</td>
+  <td>-1.75</td>
+ </tr>
+ <tr>
+  <td>Liberal</td>
+  <td>prov/terr/fed</td>
+  <td>74.41</td>
+  <td>12.62</td>
+  <td>60.78</td>
+  <td>-1.42</td>
+ </tr>
+</table>
+
+As you can see, the first 70ish years of Conservative and Liberal fiscals show they look nothing like the first 70ish
+years of NDP fiscals. The point being, that argument doesn't carry much weight, as you'd expect their respective datapoints
+to be more similar to the current NDP's. 
+
 ## The Data:
+
+For brevity of this page, the explanation of the datasets can be found here:
+
++ [Datasets](datasets/README.md)
+
+In particular I provide my sources and give an overview on how I cleaned and validated the data.
 
 ## The Method:
 
+For brevity of this page, the explanation of the methods can be found here:
+
++ [Methods](scripts/README.md)
+
+If for example you're wondering how you get fractions of years in the above data, you would want
+to read over this page.  In particular I give an overview of the R scripts used to process the data.
+
 ## Conclusion
+
+Truthfully, this sort of comparative analysis is problematic to begin with. Whenever you compare, you always have to ask
+if things are even *comparable* in the first place. I'm not a political science expert, but I've read that there is no
+formal connection between federal and provincial parties that use the same name, so provincial Liberals have no formal
+ideological connection to the federal Liberal party, for example. This is true of the Liberals and Conservatives, but
+I've also read that the NDP are the exception, where they have formalized ideological relations between their federal
+as well as provincial counterparts.
+
+The point I'm making, is things aren't actually that simple, but you get many pundits and citizens with "expert opinions"
+who have decided things *are* that simple. You do what you can to educate them on the complex points of life, but that
+doesn't always work. In such cases, you end up with projects like this, where we acknowledge their logic---taking it to
+their way of thinking---and show even within their logic system the claims they're making carry no weight.
 
 ---Daniel Nikpayuk
