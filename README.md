@@ -281,6 +281,7 @@ to the number of years of NDP:
  </tr>
  <tr>
   <td>Conservative</td>
+  <td>Prov/Terr</td>
   <td>72.86</td>
   <td>9.36</td>
   <td>63.49</td>
@@ -288,6 +289,7 @@ to the number of years of NDP:
  </tr>
  <tr>
   <td>Liberal</td>
+  <td>Prov/Terr</td>
   <td>74.68</td>
   <td>17</td>
   <td>56.68</td>
@@ -295,6 +297,7 @@ to the number of years of NDP:
  </tr>
  <tr>
   <td>Conservative</td>
+  <td>Prov/Terr/Fed</td>
   <td>74.79</td>
   <td>9.36</td>
   <td>65.43</td>
@@ -302,6 +305,7 @@ to the number of years of NDP:
  </tr>
  <tr>
   <td>Liberal</td>
+  <td>Prov/Terr/Fed</td>
   <td>74.65</td>
   <td>12.71</td>
   <td>60.95</td>
