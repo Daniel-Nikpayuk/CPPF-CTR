@@ -67,7 +67,7 @@ If you're wondering why my analysis allowed for fractional years regarding "defi
 and "surpluses", it's because my code, as part of normalization, took election years
 and split them. So if "Social Credit" (BC) was dissolved in 1991 with "NDP" as its successor,
 then I took the election date (October 17th) and divided the year. So Social Credit got
-10 months and 17 days, and NDP got the remaining 2 months and 13 days.
+9 months and 17 days, and NDP got the remaining 2 months and 13 days.
 
 It is my opinion this provides better accuracy regarding tallies such as years in power,
 but actually it's problematic in terms of taking averages of Budget Balance / GDP.
