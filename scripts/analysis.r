@@ -69,7 +69,7 @@ left <- function(date)
 	time <- strsplit(date, "-")
 	month <- as.numeric(time[[1]][[1]])
 	day <- as.numeric(time[[1]][[2]])
-	30*month+day
+	30*(month-1)+day
 }
 
 right <- function(date) { 365-left(date) }

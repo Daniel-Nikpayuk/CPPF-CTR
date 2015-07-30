@@ -97,30 +97,30 @@ If you're more interested in hard numbers, here's the same data for the above tw
  </tr>
  <tr>
   <td>Conservative</td>
-  <td>148.45</td>
-  <td>54.24</td>
-  <td>94.21</td>
+  <td>148.04</td>
+  <td>54.07</td>
+  <td>93.96</td>
   <td>-0.81</td>
  </tr>
  <tr>
   <td>Social Credit</td>
-  <td>10.87</td>
+  <td>10.79</td>
   <td>2</td>
-  <td>8.87</td>
+  <td>8.79</td>
   <td>-1.13</td>
  </tr>
  <tr>
   <td>NDP</td>
   <td>71.7</td>
-  <td>30.85</td>
-  <td>40.84</td>
+  <td>30.77</td>
+  <td>40.93</td>
   <td>-0.46</td>
  </tr>
  <tr>
   <td>Liberal</td>
-  <td>99.99</td>
-  <td>18.84</td>
-  <td>80.16</td>
+  <td>100.32</td>
+  <td>19</td>
+  <td>80.32</td>
   <td>-1.13</td>
  </tr>
  <tr>
@@ -132,16 +132,16 @@ If you're more interested in hard numbers, here's the same data for the above tw
  </tr>
  <tr>
   <td>Saskatchewan</td>
-  <td>6.08</td>
-  <td>5.08</td>
+  <td>6.16</td>
+  <td>5.16</td>
   <td>1</td>
   <td>0.82</td>
  </tr>
  <tr>
   <td>Yukon</td>
-  <td>11.08</td>
+  <td>11.17</td>
   <td>9</td>
-  <td>2.08</td>
+  <td>2.17</td>
   <td>1.33</td>
  </tr>
 </table>
@@ -170,15 +170,15 @@ have in there time done much better fiscally both with a greater number of relat
  </tr>
  <tr>
   <td>Liberal</td>
-  <td>16.01</td>
-  <td>9.15</td>
+  <td>15.92</td>
+  <td>9.06</td>
   <td>6.86</td>
   <td>-1.91</td>
  </tr>
  <tr>
   <td>Conservative</td>
-  <td>16.99</td>
-  <td>1.85</td>
+  <td>17.08</td>
+  <td>1.94</td>
   <td>15.14</td>
   <td>-3.45</td>
  </tr>
@@ -211,30 +211,30 @@ Regardless, even with this consideration, the data reveals the same overall rela
  </tr>
  <tr>
   <td>Liberal</td>
-  <td>116</td>
-  <td>27.98</td>
-  <td>87.02</td>
+  <td>116.24</td>
+  <td>28.06</td>
+  <td>87.18</td>
   <td>-1.24</td>
  </tr>
  <tr>
   <td>Conservative</td>
-  <td>165.44</td>
-  <td>56.09</td>
-  <td>109.35</td>
+  <td>165.11</td>
+  <td>56.01</td>
+  <td>109.1</td>
   <td>-1.08</td>
  </tr>
  <tr>
   <td>Social Credit</td>
-  <td>10.87</td>
+  <td>10.79</td>
   <td>2</td>
-  <td>8.87</td>
+  <td>8.79</td>
   <td>-1.13</td>
  </tr>
  <tr>
   <td>NDP</td>
   <td>71.7</td>
-  <td>30.85</td>
-  <td>40.84</td>
+  <td>30.77</td>
+  <td>40.93</td>
   <td>-0.46</td>
  </tr>
  <tr>
@@ -246,16 +246,16 @@ Regardless, even with this consideration, the data reveals the same overall rela
  </tr>
  <tr>
   <td>Saskatchewan</td>
-  <td>6.08</td>
-  <td>5.08</td>
+  <td>6.16</td>
+  <td>5.16</td>
   <td>1</td>
   <td>0.82</td>
  </tr>
  <tr>
   <td>Yukon</td>
-  <td>11.08</td>
+  <td>11.17</td>
   <td>9</td>
-  <td>2.08</td>
+  <td>2.17</td>
   <td>1.33</td>
  </tr>
 </table>
@@ -281,34 +281,30 @@ to the number of years of NDP:
  </tr>
  <tr>
   <td>Conservative</td>
-  <td>prov/terr</td>
-  <td>73.35</td>
-  <td>9.45</td>
-  <td>63.9</td>
+  <td>72.86</td>
+  <td>9.36</td>
+  <td>63.49</td>
   <td>-1.97</td>
  </tr>
  <tr>
   <td>Liberal</td>
-  <td>prov/terr</td>
-  <td>74.27</td>
-  <td>16.84</td>
-  <td>56.44</td>
+  <td>74.68</td>
+  <td>17</td>
+  <td>56.68</td>
   <td>-1.13</td>
  </tr>
  <tr>
   <td>Conservative</td>
-  <td>prov/terr/fed</td>
-  <td>75.12</td>
-  <td>9.45</td>
-  <td>65.67</td>
+  <td>74.79</td>
+  <td>9.36</td>
+  <td>65.43</td>
   <td>-2.27</td>
  </tr>
  <tr>
   <td>Liberal</td>
-  <td>prov/terr/fed</td>
-  <td>74.41</td>
-  <td>12.62</td>
-  <td>60.78</td>
+  <td>74.65</td>
+  <td>12.71</td>
+  <td>60.95</td>
   <td>-1.69</td>
  </tr>
 </table>
